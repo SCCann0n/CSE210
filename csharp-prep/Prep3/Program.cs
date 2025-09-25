@@ -4,9 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("What is the magic number? ");
-        string magicNumber = Console.ReadLine();
-        int trueNumber = int.Parse(magicNumber);
+        // Console.Write("What is the magic number? ");
+        // string magicNumber = Console.ReadLine();
+        // int trueNumber = int.Parse(magicNumber);
+
+        Random rnd = new Random();
+        int trueNumber = rnd.Next(1, 101);
 
         Console.Write("What is your guess? ");
         string userGuess = Console.ReadLine();
