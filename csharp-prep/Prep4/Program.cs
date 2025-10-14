@@ -7,19 +7,21 @@ class Program
     {
         List<int> numbersList = new List<int>() { };
 
-        string userNumber = " ";
         int trueNumber = -1;
         int sum = 0;
 
         while (trueNumber != 0)
         {
             Console.Write("Add a number ");
-            userNumber = Console.ReadLine();
-            trueNumber = int.Parse(userNumber);
+            string userNumber = Console.ReadLine();
+            //trueNumber = int.Parse(userNumber);
 
-            if (trueNumber != 0)
+            if (int.TryParse(userNumber, out trueNumber))
             {
-                numbersList.Add(trueNumber);
+                if (trueNumber != 0)
+                {
+                    numbersList.Add(trueNumber);
+                }
             }
         }
 

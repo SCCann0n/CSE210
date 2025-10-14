@@ -1,9 +1,50 @@
-using System;
+// using System;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Sandbox World!");
-    }
-}
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         // Loops
+
+//         // foreach
+//         // In python, we would do fruits = ['apple', 'cherry'] etc
+//         // What do we do for C#?
+//         List<string> fruits = new List<string>() { "Apple", "Banana", "Cherry" };
+//         foreach (string fruit in fruits)
+//         {
+//             Console.WriteLine(fruit);
+//         }
+
+//         fruits.Add("Date");
+//         fruits.Add("Eggplant");
+//         fruits[0] = "Apricot";
+
+//         Console.WriteLine(fruits[0]);
+
+//         //for
+//         // in python: for i in range(0,10)
+//         for (int i = 0; i <= 10; i++)
+//         {
+//             Console.WriteLine($"i: {i}");
+//         }
+
+//         //while
+//         Console.Write("Make a choice (y or n): ");
+//         string value = Console.ReadLine().ToUpper();
+//         while (value != "Y" && value != "N")
+//         {
+//             Console.Write("Choose y or n: ");
+//             value = Console.ReadLine().ToUpper();
+//         }
+
+//         // do while
+//         do
+//         {
+//             Console.Write("Enter y or n");
+//             value = Console.ReadLine().ToUpper();
+
+//         } while (value != "Y" && value != "N");
+
+        
+//     }
+// }

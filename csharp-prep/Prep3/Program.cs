@@ -8,8 +8,10 @@ class Program
         // string magicNumber = Console.ReadLine();
         // int trueNumber = int.Parse(magicNumber);
 
+        const int intForRand = 101;
+
         Random rnd = new Random();
-        int trueNumber = rnd.Next(1, 101);
+        int trueNumber = rnd.Next(1, intForRand);
 
         Console.Write("What is your guess? ");
         string userGuess = Console.ReadLine();
