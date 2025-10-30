@@ -23,3 +23,30 @@ Behaviors
 - Honk
 - Start
 - Stop
+
+
+10/23
+Default constructor -> no arguments -> manually set details (sometimes want this)
+Other constructor with arguments -> pass in with arugments (usually easier)
+(C# Will automatically have a defult constructor unless you make one yourself)
+
+10/28
+Inheritance: The idea that we can create subclasses for a class so we don't have to rewrite code.
+
+Ex: 
+Rectangle Class
+
+Attributes are 
+_length: double
+_width: double
+
+Methods are
+Rectangle(double, double)
+Area(): double
+Perimeter(): double
+
+Now we want to have a square class inherit the rectangle class
+
+format -> public class Square : Rectangle
+
+"protected" makes it private to all other parts of the program but the children
