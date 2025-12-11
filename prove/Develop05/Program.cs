@@ -29,7 +29,7 @@ class Program
             Console.WriteLine("5. Record Event");
             Console.WriteLine("6. Quit");
             Console.Write("\nEnter your choice: ");
-
+    
 
             string choice = Console.ReadLine();
 
