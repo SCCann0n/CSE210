@@ -1,8 +1,8 @@
 public class Customer
 {
-    string _name;
+    private string _name;
 
-    Address customerAddress;
+    private Address customerAddress;
 
     public Customer(string name, Address a)
     {

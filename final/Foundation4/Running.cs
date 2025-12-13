@@ -1,6 +1,6 @@
 public class Running : Activity
 {
-    float _runDist;
+    private float _runDist;
 
     public Running(float runDist, DateTime date, int duration) : base (date, duration)
     {

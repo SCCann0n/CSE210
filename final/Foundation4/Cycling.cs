@@ -1,6 +1,6 @@
 public class Cycling : Activity
 {
-    float _bikeSpeed;
+    private float _bikeSpeed;
 
     public Cycling(float bikeSpeed, DateTime date, int duration) : base (date, duration)
     {

@@ -1,14 +1,14 @@
 public class Address
 {
-    string _street;
+    private string _street;
 
-    string _city;
+    private string _city;
 
-    string _state;
+    private string _state;
 
-    string _country;
+    private string _country;
 
-    string _zipcode;
+    private string _zipcode;
 
     public Address(string street, string city, string state, string country, string zipcode)
     {

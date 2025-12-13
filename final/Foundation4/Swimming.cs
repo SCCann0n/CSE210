@@ -1,6 +1,6 @@
 public class Swimming : Activity
 {
-    float _lapNumb;
+    private float _lapNumb;
 
     public Swimming(float lapNumb, DateTime date, int duration) : base (date, duration)
     {

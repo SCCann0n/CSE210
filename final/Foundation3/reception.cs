@@ -1,8 +1,8 @@
 public class Reception : Event
 {
-    bool _RSVP;
+    private bool _RSVP;
 
-    string _email;
+    private string _email;
 
     public Reception(string eventTitle, string description, DateTime date, Address address, bool RSVP, string email) 
     : base(eventTitle, description, date, address)
